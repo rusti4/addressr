@@ -1,5 +1,5 @@
 import debug from 'debug'
-import { esConnect } from './client/elasticsearch'
+import { esConnect } from './client/elasticsearch.js'
 import { printVersion } from './service/printVersion'
 import { startServer } from './swagger'
 
