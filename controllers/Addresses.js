@@ -2,7 +2,7 @@ import debug from 'debug';
 import {
   getAddress as _getAddress,
   getAddresses as _getAddresses,
-} from '../service/address-service';
+} from '../service/address-service.js';
 import { writeJson } from '../utils/writer.js';
 var logger = debug('api');
 

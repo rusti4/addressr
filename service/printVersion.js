@@ -1,9 +1,9 @@
 import dotenv from 'dotenv'
-import { version } from '../version'
+import { version } from '../version.js'
 
 dotenv.config()
 
-export function printVersion () {
+export function printVersion() {
   let environment = process.env.NODE_ENV || 'development'
   if (environment === 'development') {
     environment = `${environment}|(set NODE_ENV to 'production' in production environments)`

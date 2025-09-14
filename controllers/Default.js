@@ -1,5 +1,5 @@
 // import debug from 'debug';
-import { getApiRoot as _getApiRoot } from '../service/DefaultService';
+import { getApiRoot as _getApiRoot } from '../service/DefaultService.js';
 import { writeJson } from '../utils/writer.js';
 // var logger = debug('api');
 
